@@ -1,4 +1,15 @@
-Before publishing, copy your existing app logo file:
-assets/images/logo-mark-with-text.png
-into this website folder and rename it:
-logo.png
+Before publishing, keep these two image files in the website folder:
+- logo.png
+- logo-mark-header.png
+
+Replace the existing website files with:
+index.html
+privacy.html
+terms.html
+styles.css
+CNAME
+
+Then run:
+git add .
+git commit -m "Launch Life After Transplant LLC website"
+git push
